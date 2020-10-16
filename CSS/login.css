@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#contain{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+#form{
+    width: 60%;
+    height: 100%;
+    background-color: #f0e9e9;
+}
+#img{
+    width: 60%;
+    height: 100%;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+}
+#form h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+#fr input{
+    display: block;
+    width: 290px;
+    height: 35px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    margin: 5px;
+}
+#fr{
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 28%;
+    margin-top: 30px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+}
+button:hover{
+    color: white;
+    cursor: pointer;
+    background-color:  rgb(211, 82, 35);
+}
+#command{
+    margin-left: 31%;
+    margin-top: 10px;
+    display: flex;
+}
+#command a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+#command a:hover{
+    color: orangered;
+}
+@media(max-width:1000px){
+    #img{
+        display: none;
+    }
+    #form{
+        width: 400px;
+        margin: auto;
+        border-radius: 15px;
+        background-color: rgb(236, 83, 27);
+    }
+    #main{
+        margin-top: 30px;
+    }
+    button{
+        background-color: grey;
+    }
+    button:hover{
+        background-color: rgb(182, 70, 29);
+    }
+    #command a:hover{
+        color: white;
+    }
+}

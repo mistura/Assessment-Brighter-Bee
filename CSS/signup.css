@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#contain{
+    width: 100%;
+    height: 625px;
+    background-size: cover;
+    background-image: url("../images/book2.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#opa{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    background-color: rgb(15, 15, 15, 0.7);
+}
+#main{
+    width: 400px;
+    height: 550px;
+    background-color: #f7f1f1;
+    margin: auto;
+    padding-top: 50px;
+}
+#main h1{
+    font-size: 50px;
+    text-align: center;
+}
+#main p{
+    text-align: center;
+}
+input{
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    display: block;
+}
+#form{
+    width: auto;
+    margin-top: 20px;
+    padding-left: 40px;
+    height: auto;
+}
+button{
+    width: 140px;
+    height: 50px;
+    margin-left: 130px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(204, 71, 23);
+    color: white;
+}
+#command{
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+}
+#command a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+#command a:hover{
+    color: orangered;
+}

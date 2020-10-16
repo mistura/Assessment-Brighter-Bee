@@ -1,0 +1,262 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#contain{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#banner{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-image: url("../images/contact1.jpg");
+}
+#opa{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 15, 15,0.7);
+}
+#logo{
+    width: 300px;
+    height: 90px;
+    margin-left: 5%;
+    display: flex;
+}
+#logo h1{
+    font-weight: 600;
+}
+#img{
+    width: 160px;
+    height: 100%;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 80%;
+}
+#text{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+#text h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: wheat;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#text p{
+    font-size: 20px;
+    margin-left: 100px;
+    color: wheat;
+}
+.p{
+    font-size: 27px;
+}
+#contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.box{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+}
+.box h4{
+    font-size: 18px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+.box p{
+    margin-bottom: 10px;
+}
+.p{
+    color: orange;
+}
+.box a{
+    text-decoration: none;
+}
+#form{
+    width: 100%;
+    height: auto;
+    background-color: #ecebeb;
+}
+#header{
+    width: 60%;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+#header h1{
+    font-size: 60px;
+    color: rgb(211, 71, 20);
+}
+.form1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.form1 input{
+    width: 160%;
+    padding-left: 20px;
+    height: 30px;
+}
+.nip{
+    margin-left: 40px;
+}
+.form2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    text-align: left;
+}
+.form2 input{
+    width: 160%;
+    height: 30px;
+    padding-left: 20px;
+    display: flex;
+}
+#mes{
+    width: 43%;
+    height: auto;;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+}
+#btn{
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: orangered;
+}
+#btn:hover{
+    color: white;
+    background-color: rgb(197, 62, 13);
+    cursor: pointer;
+}
+#button{
+    width: 200px;
+    height: 90px;
+    margin: auto;
+    margin-top: 30px;
+}
+#textarea{
+    margin-left:28%;
+}
+#textarea1{
+    display: none;
+    margin-left: 10%;
+}
+#foot{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #686868;
+}
+.tile{
+    width: 23%;
+    height: 100%;
+    display: block;
+    margin: 3px;
+    padding-left: 10px;
+}
+.tile h3{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+#foot a{
+   margin-left: 30px;
+   color: black;
+   text-decoration: none;
+   font-size: 22px;
+}
+#foot a:hover{
+    color: orange;
+}
+.p{
+    font-size: 20px;
+    color: rgba(252, 164, 1, 0.932);
+}
+#logo1{
+    width: 250px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 5%;
+    display: flex;
+}
+#logo1 h2{
+    margin-top: 5px;
+    font-weight: 600;
+}
+#img{
+    width: 130px;
+    margin-top: 1px;
+    height: 100%;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 80%;
+}
+#icon{
+    width: 85%;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 60px;
+    display: flex;
+}
+.icon{
+    width: 13%;
+    margin: 5px;
+    height: 60%;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    
+}
+@media(max-width:800px){
+    .nip{
+        margin-left: 0;
+    }
+    #textarea{
+        display: none;
+    }
+    #textarea1{
+        display: block;
+    }
+}
+@media(max-width:900px){
+    .form1{
+        margin-top: 80px;
+    }
+}
+@media(max-width:1100px){
+    .tile:nth-child(odd){
+        display: none;
+    }
+    .tile:nth-child(even){
+        width: 40%;
+
+    }
+    #foot{
+        padding-left: 30px;
+    }
+}
